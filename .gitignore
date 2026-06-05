@@ -1,0 +1,28 @@
+# Environment variables - NEVER commit these
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Test/debug files
+backend/test_api.py
+backend/check_key.py
+backend/list_models.py
+
+# Logs
+*.log
